@@ -1,0 +1,1 @@
+drawChart(PerfTest_ping20150508125725, 'chart_PerfTest_ping20150508125725_div', [0, 1, 2, 3, 4], 1, 'Time', 'Response Time', 'joyrest');

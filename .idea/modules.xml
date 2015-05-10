@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common-perftest/common-perftest.iml" filepath="$PROJECT_DIR$/common-perftest/common-perftest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jersey-perftest/jersey-perftest.iml" filepath="$PROJECT_DIR$/jersey-perftest/jersey-perftest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/joyrest-performance-tests.iml" filepath="$PROJECT_DIR$/joyrest-performance-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/joyrest-perftest/joyrest-perftest.iml" filepath="$PROJECT_DIR$/joyrest-perftest/joyrest-perftest.iml" />
+    </modules>
+  </component>
+</project>

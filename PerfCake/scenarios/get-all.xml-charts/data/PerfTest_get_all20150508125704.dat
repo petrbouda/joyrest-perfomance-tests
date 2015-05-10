@@ -1,0 +1,1 @@
+drawChart(PerfTest_get_all20150508125704, 'chart_PerfTest_get_all20150508125704_div', [0, 1, 2, 3, 4], 1, 'Time', 'Response Time', 'joyrest');
