@@ -1,1 +1,0 @@
-drawChart(PerfTest_post_and_receive20150508125746, 'chart_PerfTest_post_and_receive20150508125746_div', [0, 1, 2, 3, 4], 1, 'Time', 'Response Time', 'joyrest');

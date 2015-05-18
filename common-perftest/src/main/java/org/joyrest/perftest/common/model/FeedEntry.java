@@ -1,4 +1,4 @@
-package org.joyrest.perftest.joyrest.feeds.model;
+package org.joyrest.perftest.common.model;
 
 import java.io.Serializable;
 
