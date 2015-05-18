@@ -34,6 +34,12 @@
 
         <dependency>
             <groupId>org.joyrest</groupId>
+            <artifactId>joyrest-undertow</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.joyrest</groupId>
             <artifactId>joyrest-servlet</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -124,6 +130,25 @@
                                 </manifest>
                             </archive>
                             <finalName>jetty</finalName>
+                            <appendAssemblyId>false</appendAssemblyId>
+                            <descriptorRefs>
+                                <descriptorRef>jar-with-dependencies</descriptorRef>
+                            </descriptorRefs>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>undertow</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <archive>
+                                <manifest>
+                                    <mainClass>org.joyrest.perftest.joyrest.feeds.UndertowStart</mainClass>
+                                </manifest>
+                            </archive>
+                            <finalName>undertow</finalName>
                             <appendAssemblyId>false</appendAssemblyId>
                             <descriptorRefs>
                                 <descriptorRef>jar-with-dependencies</descriptorRef>

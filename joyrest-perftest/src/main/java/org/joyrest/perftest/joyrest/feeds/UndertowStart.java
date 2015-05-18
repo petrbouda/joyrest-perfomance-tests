@@ -1,14 +1,14 @@
 package org.joyrest.perftest.joyrest.feeds;
 
 import org.joyrest.context.ApplicationContext;
-import org.joyrest.jetty.JettyServer;
+import org.joyrest.undertow.UndertowServer;
 
-public class JettyStart {
+public class UndertowStart {
 
 	public static void main(String[] args) {
 		ApplicationConfig configurer = new ApplicationConfig();
 		ApplicationContext applicationContext = configurer.initialize();
 
-		JettyServer.start(applicationContext, 5000, "/services");
+		UndertowServer.start(applicationContext, 5000, "/services");
 	}
 }
